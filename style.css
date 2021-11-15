@@ -1,0 +1,32 @@
+/* body {
+  height: 100%;
+} */
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffd700;
+}
+
+.carousel {
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    width: 100%;
+  }
+}
+
+.carousel-item img {
+  max-width: 100%;
+}
+
+.gallery {
+  background-color: #ffd700;
+  padding: 80px 0;
+}
+
+.gallery img {
+  max-width: 100%;
+}
