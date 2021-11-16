@@ -1,11 +1,29 @@
-/* body {
-  height: 100%;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@400;700&family=Ruslan+Display&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Crimson Text", serif;
+}
+
+.logo {
+  font-family: "Ruslan Display", cursive;
+  font-size: 3rem;
+}
 
 a {
   margin: 0 10px;
   text-decoration: none;
   color: #ffd700;
+}
+
+a:hover {
+  color: #daa520;
 }
 
 .carousel {
@@ -27,6 +45,50 @@ a {
   padding: 80px 0;
 }
 
-.gallery img {
+.img-en-gal {
   max-width: 100%;
+  background-color: #daa520;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.modal-img {
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+}
+
+.imagen-formulario {
+  width: 50%;
+}
+
+.imagen-formulario img {
+  width: 100%;
+  max-width: 100%;
+  background-color: #daa520;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contacto {
+  width: 100%;
+}
+
+.imagen-tienda img {
+  width: 100%;
+  max-width: 100%;
+  background-color: #daa520;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.yo {
+  width: 400px;
+  display: block;
 }
